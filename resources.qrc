@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>events.qml</file>
+        <file>HeaderButton.qml</file>
+    </qresource>
+</RCC>
