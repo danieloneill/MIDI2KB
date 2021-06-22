@@ -27,6 +27,8 @@ This app was developed using a mix of Qt Widgets and Qt Quick. Why? Because I de
 
 Keyboard events are emitted using SendKey with mapped virtual key and virtual scancodes, so it should be compatible with any program which accepts keyboard events.
 
+MIDI is handled by [QMidi](https://github.com/waddlesplash/QMidi), an awesome library written by waddlesplash and is released under the MIT license.
+
 ## Known issues:
  * New MIDI events cause Key mappings to get wonky
  * The debug terminal opens (black window) when you open the app.
